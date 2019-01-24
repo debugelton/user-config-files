@@ -1,5 +1,6 @@
 # user-config-files
 several config files for tmux, bash
+http://mywiki.wooledge.org/BashFAQ/031
 ## bash scripting
 ### Reserved Variables
 Variable | Description
@@ -27,7 +28,8 @@ INTEGER1 __-eq__ INTEGER2 | INTEGER1 is numerically equal to INTEGER2
 INTEGER1 __-gt__ INTEGER2 | INTEGER1 is numerically greater than INTEGER2
 INTEGER1 __-lt__ INTEGER2 | INTEGER1 is numerically less than INTEGER2
 __-d__ FILE | FILE exists and is a directory.
-__-e__ FILE | FILE exists.
+__-e__ FILE | FILE exists. Can be also an directory
+__-f__ FILE | FILE exists and is not a directory
 __-r__ FILE | FILE exists and the read permission is granted.
 __-s__ FILE | FILE exists and it's size is greater than zero (ie. it is not empty).
 __-w__ FILE | FILE exists and the write permission is granted.
