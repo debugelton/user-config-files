@@ -55,3 +55,21 @@ else
     echo You may not go to the party.
 fi
 ```
+#### case (switch)
+``` bash
+#!/bin/bash
+case $1 in
+    start)
+        echo starting
+        ;;
+    stop)
+        echo stoping
+        ;;
+    restart)
+        echo restarting
+        ;;
+    *)
+        echo don\'t know
+        ;;
+esac
+```
