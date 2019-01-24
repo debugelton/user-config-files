@@ -15,7 +15,7 @@ __$HOSTNAME__ | The hostname of the machine the script is running on.
 __$SECONDS__ | The number of seconds since the script was started.
 __$RANDOM__ | Returns a different random number each time is it referred to.
 __$LINENO__ | Returns the current line number in the Bash script.
-#### Operators
+### Operators
 Operator | Description
 -------- | -----------
 __!__ EXPRESSION | The EXPRESSION is false.
