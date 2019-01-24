@@ -2,7 +2,7 @@
 several config files for tmux, bash
 
 ## bash scripting
-### Parameters
+
 Reserved Variables
 
 
